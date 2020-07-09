@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-07-09T08:49:46.745Z" agent="5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36" etag="y2D7xam-g2B3x43fIC3Y" version="13.4.0" type="github">
+<mxfile host="app.diagrams.net" modified="2020-07-09T08:51:30.400Z" agent="5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36" etag="2VqK5EsRkZPD3rdbKLTY" version="13.4.0" type="github">
   <diagram id="bOsrYrQhkHk9vz5rCVGJ" name="第 1 页">
     <mxGraphModel dx="2249" dy="770" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -75,6 +75,9 @@
         </mxCell>
         <mxCell id="rzc1Vdj69maTdos-l9hx-19" value="minigui" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-80" y="420" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rzc1Vdj69maTdos-l9hx-24" value="注: fb0/fb1即linux实现的FrameBuffer机制" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="135" y="490" width="230" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
