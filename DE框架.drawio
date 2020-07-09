@@ -1,1 +1,82 @@
-<mxfile host="app.diagrams.net" modified="2020-07-09T08:25:28.279Z" agent="5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36" version="13.4.0" etag="FRvAl4TXNbpTspiUrjwA" type="github"><diagram id="bOsrYrQhkHk9vz5rCVGJ">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2020-07-09T08:49:46.745Z" agent="5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36" etag="y2D7xam-g2B3x43fIC3Y" version="13.4.0" type="github">
+  <diagram id="bOsrYrQhkHk9vz5rCVGJ" name="第 1 页">
+    <mxGraphModel dx="2249" dy="770" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="rzc1Vdj69maTdos-l9hx-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="rzc1Vdj69maTdos-l9hx-1" target="rzc1Vdj69maTdos-l9hx-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rzc1Vdj69maTdos-l9hx-10" value="VI通道(Video通道, 支持NV21)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="rzc1Vdj69maTdos-l9hx-9">
+          <mxGeometry x="-0.3375" y="-2" relative="1" as="geometry">
+            <mxPoint y="-2" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rzc1Vdj69maTdos-l9hx-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="rzc1Vdj69maTdos-l9hx-1" target="rzc1Vdj69maTdos-l9hx-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rzc1Vdj69maTdos-l9hx-1" value="多媒体申请的Buffer" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-80" y="220" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rzc1Vdj69maTdos-l9hx-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="rzc1Vdj69maTdos-l9hx-2" target="rzc1Vdj69maTdos-l9hx-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rzc1Vdj69maTdos-l9hx-15" value="UI通道, 支持ARGB" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="rzc1Vdj69maTdos-l9hx-13">
+          <mxGeometry x="-0.3905" y="1" relative="1" as="geometry">
+            <mxPoint x="29" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rzc1Vdj69maTdos-l9hx-2" value="fb0" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="190" y="320" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rzc1Vdj69maTdos-l9hx-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="rzc1Vdj69maTdos-l9hx-3" target="rzc1Vdj69maTdos-l9hx-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rzc1Vdj69maTdos-l9hx-16" value="UI通道, 支持ARGB" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="rzc1Vdj69maTdos-l9hx-14">
+          <mxGeometry x="-0.5032" relative="1" as="geometry">
+            <mxPoint x="17" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rzc1Vdj69maTdos-l9hx-3" value="fb1" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="190" y="420" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rzc1Vdj69maTdos-l9hx-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="rzc1Vdj69maTdos-l9hx-5" target="rzc1Vdj69maTdos-l9hx-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rzc1Vdj69maTdos-l9hx-5" value="DE&lt;br&gt;(DE定时扫描设给他的buffer, 并进行合成)" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="460" y="285" width="130" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="rzc1Vdj69maTdos-l9hx-6" value="HDMI" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="679" y="320" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rzc1Vdj69maTdos-l9hx-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="rzc1Vdj69maTdos-l9hx-17" target="rzc1Vdj69maTdos-l9hx-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="140" y="350" />
+              <mxPoint x="140" y="350" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rzc1Vdj69maTdos-l9hx-20" value="&lt;span style=&quot;font-size: 12px ; background-color: rgb(248 , 249 , 250)&quot;&gt;旋转&lt;/span&gt;&lt;span style=&quot;font-size: 12px ; background-color: rgb(248 , 249 , 250)&quot;&gt;输出720P&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="rzc1Vdj69maTdos-l9hx-18">
+          <mxGeometry x="0.3333" y="44" relative="1" as="geometry">
+            <mxPoint x="-30" y="44" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rzc1Vdj69maTdos-l9hx-17" value="GPU" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-80" y="320" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rzc1Vdj69maTdos-l9hx-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="rzc1Vdj69maTdos-l9hx-19" target="rzc1Vdj69maTdos-l9hx-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rzc1Vdj69maTdos-l9hx-22" value="输出进度条等UI" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="rzc1Vdj69maTdos-l9hx-21">
+          <mxGeometry x="-0.32" relative="1" as="geometry">
+            <mxPoint x="19" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rzc1Vdj69maTdos-l9hx-19" value="minigui" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-80" y="420" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
