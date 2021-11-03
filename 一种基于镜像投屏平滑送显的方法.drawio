@@ -1,32 +1,80 @@
-<mxfile host="app.diagrams.net" modified="2021-11-03T06:03:07.059Z" agent="5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" etag="yTYNJQhWoycqMwJcLckS" version="15.5.9" type="github">
+<mxfile host="app.diagrams.net" modified="2021-11-03T06:27:36.768Z" agent="5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" etag="JImOdpnmTw57n6l-tPwl" version="15.5.9" type="github">
   <diagram id="6ZMAc-CpmWxqlEE39a_y" name="第 1 页">
     <mxGraphModel dx="1422" dy="740" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="XpX827LhPEl-OldUf2tg-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=16;endArrow=classic;endFill=1;startArrow=none;startFill=0;" edge="1" parent="1" source="XpX827LhPEl-OldUf2tg-1" target="XpX827LhPEl-OldUf2tg-27">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="XpX827LhPEl-OldUf2tg-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;fontSize=16;startArrow=none;startFill=0;endArrow=classic;endFill=1;" edge="1" parent="1" source="XpX827LhPEl-OldUf2tg-1" target="XpX827LhPEl-OldUf2tg-2">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="XpX827LhPEl-OldUf2tg-1" value="中间件" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
-          <mxGeometry x="520" y="310" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="XpX827LhPEl-OldUf2tg-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;fontSize=16;endArrow=classic;endFill=1;startArrow=none;startFill=0;" edge="1" parent="1" source="XpX827LhPEl-OldUf2tg-2" target="XpX827LhPEl-OldUf2tg-1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="XpX827LhPEl-OldUf2tg-2" value="解码器" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
-          <mxGeometry x="707" y="310" width="120" height="60" as="geometry" />
-        </mxCell>
         <mxCell id="XpX827LhPEl-OldUf2tg-15" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
           <mxGeometry x="1190" y="890" width="20" height="20" as="geometry" />
         </mxCell>
         <mxCell id="XpX827LhPEl-OldUf2tg-16" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
           <mxGeometry x="1200" y="900" width="20" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="XpX827LhPEl-OldUf2tg-28" value="" style="group" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="310" y="280" width="20" height="142" as="geometry" />
+        <mxCell id="XpX827LhPEl-OldUf2tg-33" value="送显线程" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="90" y="110" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="XpX827LhPEl-OldUf2tg-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=16;startArrow=none;startFill=0;endArrow=classic;endFill=1;" edge="1" parent="1" source="XpX827LhPEl-OldUf2tg-34" target="XpX827LhPEl-OldUf2tg-39">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XpX827LhPEl-OldUf2tg-34" value="等待已经送显的倒数第二帧Fence释放, 即对应的视频帧显示完成" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="62" y="200" width="180" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="XpX827LhPEl-OldUf2tg-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=16;startArrow=none;startFill=0;endArrow=classic;endFill=1;" edge="1" parent="1" source="XpX827LhPEl-OldUf2tg-39" target="XpX827LhPEl-OldUf2tg-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XpX827LhPEl-OldUf2tg-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=16;startArrow=none;startFill=0;endArrow=classic;endFill=1;" edge="1" parent="1" source="XpX827LhPEl-OldUf2tg-39" target="XpX827LhPEl-OldUf2tg-41">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XpX827LhPEl-OldUf2tg-39" value="归还倒数第二视频帧" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="77" y="284" width="150" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="XpX827LhPEl-OldUf2tg-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=16;startArrow=none;startFill=0;endArrow=classic;endFill=1;" edge="1" parent="1" source="XpX827LhPEl-OldUf2tg-41" target="XpX827LhPEl-OldUf2tg-43">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XpX827LhPEl-OldUf2tg-41" value="&lt;span style=&quot;background-color: rgb(255 , 255 , 255)&quot;&gt;从视频帧送显队列中获取符合&lt;span style=&quot;font-size: 12pt&quot;&gt;Δt&lt;/span&gt;&lt;span style=&quot;font-size: 12pt&quot;&gt;&amp;gt;1/2t&lt;/span&gt;&lt;span style=&quot;font-size: 12pt ; vertical-align: sub&quot;&gt;D&lt;/span&gt;&lt;span&gt;的视频帧&lt;/span&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="87" y="358" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="XpX827LhPEl-OldUf2tg-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;fontSize=16;startArrow=none;startFill=0;endArrow=classic;endFill=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="XpX827LhPEl-OldUf2tg-18" target="XpX827LhPEl-OldUf2tg-41">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="250" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XpX827LhPEl-OldUf2tg-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=16;startArrow=none;startFill=0;endArrow=classic;endFill=1;" edge="1" parent="1" source="XpX827LhPEl-OldUf2tg-43" target="XpX827LhPEl-OldUf2tg-44">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XpX827LhPEl-OldUf2tg-43" value="创建与上述视频帧对应的Fence" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=#FFFFFF;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="92" y="436" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="XpX827LhPEl-OldUf2tg-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=16;startArrow=none;startFill=0;endArrow=classic;endFill=1;" edge="1" parent="1" source="XpX827LhPEl-OldUf2tg-44" target="XpX827LhPEl-OldUf2tg-34">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="152" y="590" />
+              <mxPoint x="40" y="590" />
+              <mxPoint x="40" y="180" />
+              <mxPoint x="152" y="180" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XpX827LhPEl-OldUf2tg-44" value="送给显示驱动显示" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=#FFFFFF;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="84.5" y="520" width="135" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="XpX827LhPEl-OldUf2tg-50" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="255" y="291" width="420" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="XpX827LhPEl-OldUf2tg-1" value="中间件" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="XpX827LhPEl-OldUf2tg-50">
+          <mxGeometry x="134" y="41" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="XpX827LhPEl-OldUf2tg-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;fontSize=16;endArrow=classic;endFill=1;startArrow=none;startFill=0;" edge="1" parent="XpX827LhPEl-OldUf2tg-50" source="XpX827LhPEl-OldUf2tg-2" target="XpX827LhPEl-OldUf2tg-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XpX827LhPEl-OldUf2tg-2" value="解码器" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="XpX827LhPEl-OldUf2tg-50">
+          <mxGeometry x="300" y="41" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="XpX827LhPEl-OldUf2tg-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;fontSize=16;startArrow=none;startFill=0;endArrow=classic;endFill=1;" edge="1" parent="XpX827LhPEl-OldUf2tg-50" source="XpX827LhPEl-OldUf2tg-1" target="XpX827LhPEl-OldUf2tg-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XpX827LhPEl-OldUf2tg-28" value="" style="group" vertex="1" connectable="0" parent="XpX827LhPEl-OldUf2tg-50">
+          <mxGeometry x="55" width="20" height="142" as="geometry" />
         </mxCell>
         <mxCell id="XpX827LhPEl-OldUf2tg-13" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="XpX827LhPEl-OldUf2tg-28">
           <mxGeometry width="20" height="20" as="geometry" />
@@ -62,26 +110,14 @@
         <mxCell id="XpX827LhPEl-OldUf2tg-27" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="XpX827LhPEl-OldUf2tg-28">
           <mxGeometry y="122" width="20" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="XpX827LhPEl-OldUf2tg-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;fontSize=16;startArrow=none;startFill=0;endArrow=classic;endFill=1;" edge="1" parent="1" source="XpX827LhPEl-OldUf2tg-13" target="XpX827LhPEl-OldUf2tg-1">
+        <mxCell id="XpX827LhPEl-OldUf2tg-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=16;endArrow=classic;endFill=1;startArrow=none;startFill=0;" edge="1" parent="XpX827LhPEl-OldUf2tg-50" source="XpX827LhPEl-OldUf2tg-1" target="XpX827LhPEl-OldUf2tg-27">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="XpX827LhPEl-OldUf2tg-33" value="送显线程" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
-          <mxGeometry x="90" y="110" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="XpX827LhPEl-OldUf2tg-34" value="等待已经送显的倒数第二帧Fence释放, 即对应的视频帧显示完成" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
-          <mxGeometry x="62" y="200" width="180" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="XpX827LhPEl-OldUf2tg-38" value="视频帧送显队列" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="1">
-          <mxGeometry x="255" y="450" width="130" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="XpX827LhPEl-OldUf2tg-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=16;startArrow=none;startFill=0;endArrow=classic;endFill=1;" edge="1" parent="1" source="XpX827LhPEl-OldUf2tg-39" target="XpX827LhPEl-OldUf2tg-14">
+        <mxCell id="XpX827LhPEl-OldUf2tg-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;fontSize=16;startArrow=none;startFill=0;endArrow=classic;endFill=1;" edge="1" parent="XpX827LhPEl-OldUf2tg-50" source="XpX827LhPEl-OldUf2tg-13" target="XpX827LhPEl-OldUf2tg-1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="XpX827LhPEl-OldUf2tg-39" value="归还倒数第二视频帧" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
-          <mxGeometry x="90" y="280" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="XpX827LhPEl-OldUf2tg-41" value="从视频帧送显队列中获取符合要求的" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
-          <mxGeometry x="90" y="362" width="120" height="60" as="geometry" />
+        <mxCell id="XpX827LhPEl-OldUf2tg-38" value="视频帧送显队列" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="XpX827LhPEl-OldUf2tg-50">
+          <mxGeometry y="170" width="130" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
