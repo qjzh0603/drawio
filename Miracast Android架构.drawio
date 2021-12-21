@@ -1,1 +1,28 @@
-<mxfile host="app.diagrams.net" modified="2021-12-21T08:39:15.172Z" agent="5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" version="15.6.8" etag="_roKjXKBwiyGVEaqIuyu" type="github"><diagram id="72q6YbU4JWKDac-2FjlH">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-12-21T08:44:35.676Z" agent="5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" etag="vqpgkm1BLloNiaWXr_lo" version="15.6.8" type="github">
+  <diagram id="72q6YbU4JWKDac-2FjlH" name="第 1 页">
+    <mxGraphModel dx="1422" dy="695" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="HPNpFfBrm5kSnwUI3bYf-1" value="Miracast.java" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="360" y="10" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HPNpFfBrm5kSnwUI3bYf-2" value="WFDSinkView.java" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="370" y="57" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HPNpFfBrm5kSnwUI3bYf-3" value="WFDManager.java" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="380" y="102" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HPNpFfBrm5kSnwUI3bYf-4" value="Miracast.java" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="370" y="142" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HPNpFfBrm5kSnwUI3bYf-5" value="Miracast.java" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="380" y="189" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HPNpFfBrm5kSnwUI3bYf-6" value="Miracast.java" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="390" y="234" width="120" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
