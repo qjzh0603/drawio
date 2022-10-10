@@ -1,9 +1,18 @@
-<mxfile host="app.diagrams.net" modified="2022-10-10T13:38:28.373Z" agent="5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" etag="JFzbzQJqP6R6_QmsJWtL" version="20.4.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-10-10T13:43:39.403Z" agent="5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" etag="49ToPkHpSEvNWgUnJyx5" version="20.4.0" type="github">
   <diagram id="6QDKSPnrTSgEelVW4R3N" name="第 1 页">
     <mxGraphModel dx="1422" dy="1909" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="wRb3nrnMmlGAktsx-6lQ-19" value="" style="group" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="61" y="20" width="180" height="320" as="geometry" />
+        </mxCell>
+        <mxCell id="wRb3nrnMmlGAktsx-6lQ-20" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="wRb3nrnMmlGAktsx-6lQ-19" vertex="1">
+          <mxGeometry width="180" height="320" as="geometry" />
+        </mxCell>
+        <mxCell id="wRb3nrnMmlGAktsx-6lQ-21" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#000000;fillStyle=hatch;gradientColor=none;strokeColor=#1A1A1A;" parent="wRb3nrnMmlGAktsx-6lQ-19" vertex="1">
+          <mxGeometry x="7.5" y="7.5" width="165" height="305" as="geometry" />
+        </mxCell>
         <mxCell id="wRb3nrnMmlGAktsx-6lQ-1" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="520" y="-10" width="660" height="380" as="geometry" />
         </mxCell>
@@ -82,15 +91,6 @@
         </mxCell>
         <mxCell id="wRb3nrnMmlGAktsx-6lQ-16" value="Sink端收到的Miracast图像中的有效内容区域" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=default;fillColor=none;fontSize=15;" parent="1" vertex="1">
           <mxGeometry x="773" y="-76" width="320" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="wRb3nrnMmlGAktsx-6lQ-19" value="" style="group" parent="1" vertex="1" connectable="0">
-          <mxGeometry x="61" y="20" width="180" height="320" as="geometry" />
-        </mxCell>
-        <mxCell id="wRb3nrnMmlGAktsx-6lQ-20" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="wRb3nrnMmlGAktsx-6lQ-19" vertex="1">
-          <mxGeometry width="180" height="320" as="geometry" />
-        </mxCell>
-        <mxCell id="wRb3nrnMmlGAktsx-6lQ-21" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#000000;fillStyle=hatch;gradientColor=none;strokeColor=#1A1A1A;" parent="wRb3nrnMmlGAktsx-6lQ-19" vertex="1">
-          <mxGeometry x="7.5" y="7.5" width="165" height="305" as="geometry" />
         </mxCell>
         <mxCell id="wRb3nrnMmlGAktsx-6lQ-22" value="Source端移动设备屏幕画面" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=default;fillColor=none;fontSize=15;" parent="1" vertex="1">
           <mxGeometry x="127" y="-60" width="210" height="30" as="geometry" />
