@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-10-11T06:56:32.886Z" agent="5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" etag="zhPaXabLMU6eHVsAL264" version="20.4.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-10-11T07:30:59.529Z" agent="5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" etag="X8n8ET7mx8mTCjXbTE6M" version="20.4.0" type="github">
   <diagram id="6QDKSPnrTSgEelVW4R3N" name="第 1 页">
-    <mxGraphModel dx="1673" dy="2040" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="677" dy="1521" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -12,6 +12,15 @@
         </mxCell>
         <mxCell id="DnedYTSctudwAIyVeCfP-10" value="" style="rounded=0;whiteSpace=wrap;html=1;fillStyle=cross-hatch;fillColor=#000000;fontColor=#ffffff;strokeColor=default;points=[[0,0,0,0,0],[0,0.25,0,0,0],[0,0.5,0,0,0],[0,0.75,0,0,0],[0,1,0,0,0],[0.1,0,0,0,0],[0.25,0,0,0,0],[0.25,1,0,0,0],[0.5,0,0,0,0],[0.5,1,0,0,0],[0.75,0,0,0,0],[0.75,1,0,0,0],[1,0,0,0,0],[1,0.25,0,0,0],[1,0.5,0,0,0],[1,0.75,0,0,0],[1,1,0,0,0]];" parent="wRb3nrnMmlGAktsx-6lQ-2" vertex="1">
           <mxGeometry x="222" y="10" width="216" height="360" as="geometry" />
+        </mxCell>
+        <mxCell id="BmxFt51ZKjBLVFziNjGP-14" value="" style="endArrow=none;html=1;rounded=0;fontSize=18;dashed=1;" edge="1" parent="wRb3nrnMmlGAktsx-6lQ-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="329.28999999999996" y="384" as="sourcePoint" />
+            <mxPoint x="329.28999999999996" y="-6" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Hm4NCr68FKDRwbmfdPMT-1" value="" style="rounded=0;whiteSpace=wrap;html=1;fillStyle=solid;glass=0;fillColor=#CCCCCC;fontColor=#ffffff;strokeColor=#000000;points=[[0,0,0,0,0],[0,0.15,0,0,0],[0,0.25,0,0,0],[0,0.5,0,0,0],[0,0.75,0,0,0],[0,1,0,0,0],[0.25,0,0,0,0],[0.25,1,0,0,0],[0.5,0,0,0,0],[0.5,1,0,0,0],[0.75,0,0,0,0],[0.75,1,0,0,0],[1,0,0,0,0],[1,0.25,0,0,0],[1,0.5,0,0,0],[1,0.75,0,0,0],[1,1,0,0,0]];" parent="1" vertex="1">
+          <mxGeometry x="772.86" width="154.28" height="360" as="geometry" />
         </mxCell>
         <mxCell id="DnedYTSctudwAIyVeCfP-11" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;strokeWidth=2;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -36,9 +45,6 @@
         </mxCell>
         <mxCell id="BmxFt51ZKjBLVFziNjGP-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.15;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.378;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=18;" edge="1" parent="1" source="Hm4NCr68FKDRwbmfdPMT-1" target="BmxFt51ZKjBLVFziNjGP-9">
           <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="Hm4NCr68FKDRwbmfdPMT-1" value="" style="rounded=0;whiteSpace=wrap;html=1;fillStyle=solid;glass=0;fillColor=#CCCCCC;fontColor=#ffffff;strokeColor=#000000;points=[[0,0,0,0,0],[0,0.15,0,0,0],[0,0.25,0,0,0],[0,0.5,0,0,0],[0,0.75,0,0,0],[0,1,0,0,0],[0.25,0,0,0,0],[0.25,1,0,0,0],[0.5,0,0,0,0],[0.5,1,0,0,0],[0.75,0,0,0,0],[0.75,1,0,0,0],[1,0,0,0,0],[1,0.25,0,0,0],[1,0.5,0,0,0],[1,0.75,0,0,0],[1,1,0,0,0]];" parent="1" vertex="1">
-          <mxGeometry x="772.86" width="154.28" height="360" as="geometry" />
         </mxCell>
         <mxCell id="BmxFt51ZKjBLVFziNjGP-2" value="有效图像边沿检测区域开始位置&lt;br&gt;矩形区域宽高比9:15" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=default;fillColor=none;fontSize=18;labelBorderColor=none;" vertex="1" parent="1">
           <mxGeometry x="480" y="-160" width="280" height="60" as="geometry" />
