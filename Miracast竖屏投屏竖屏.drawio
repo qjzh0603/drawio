@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-10-11T01:55:44.896Z" agent="5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" etag="eECeASjLQqwYoDOQABMi" version="20.4.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-10-12T07:03:46.975Z" agent="5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" etag="PaFI19clD6ExHqFsias7" version="20.4.0" type="github">
   <diagram id="nHjyefR00ipD4gsYa4OQ" name="第 1 页">
     <mxGraphModel dx="2188" dy="2307" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -126,6 +126,9 @@
         </mxCell>
         <mxCell id="fIoEv5E2U9dEB1Ysbp1T-60" value="Sink端收到的Miracast图像&lt;br&gt;裁剪出的有效内容区域" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=default;fillColor=none;fontSize=18;" vertex="1" parent="1">
           <mxGeometry x="1271" y="-165" width="230" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fIoEv5E2U9dEB1Ysbp1T-61" value="裁剪" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="1020" y="149" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
