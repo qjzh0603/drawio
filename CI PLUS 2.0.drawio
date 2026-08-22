@@ -4,6 +4,9 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="v2VsK8_onowngQsw0-ks-27" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;verticalAlign=top;" value="逻辑接口/管道" vertex="1">
+          <mxGeometry height="240" width="240" x="360" y="620" as="geometry" />
+        </mxCell>
         <mxCell id="v2VsK8_onowngQsw0-ks-11" edge="1" parent="1" source="v2VsK8_onowngQsw0-ks-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="v2VsK8_onowngQsw0-ks-2">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
@@ -76,16 +79,13 @@
           <mxGeometry height="60" width="460" x="630" y="680" as="geometry" />
         </mxCell>
         <mxCell id="v2VsK8_onowngQsw0-ks-23" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="usb" vertex="1">
-          <mxGeometry height="30" width="60" x="430" y="650" as="geometry" />
+          <mxGeometry height="30" width="60" x="450" y="600" as="geometry" />
         </mxCell>
         <mxCell id="v2VsK8_onowngQsw0-ks-24" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=18;" value="Command Interface&lt;div&gt;命令接口&lt;/div&gt;" vertex="1">
-          <mxGeometry height="60" width="120" x="414" y="750" as="geometry" />
+          <mxGeometry height="60" width="120" x="414" y="680" as="geometry" />
         </mxCell>
-        <mxCell id="v2VsK8_onowngQsw0-ks-26" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=18;" value="Command Interface&lt;div&gt;命令接口&lt;/div&gt;" vertex="1">
-          <mxGeometry height="60" width="120" x="414" y="840" as="geometry" />
-        </mxCell>
-        <mxCell id="v2VsK8_onowngQsw0-ks-27" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="" vertex="1">
-          <mxGeometry height="240" width="240" x="360" y="700" as="geometry" />
+        <mxCell id="v2VsK8_onowngQsw0-ks-26" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=18;" value="Media Interface&lt;div&gt;媒体接口&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="414" y="770" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
