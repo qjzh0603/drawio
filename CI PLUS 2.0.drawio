@@ -5,7 +5,7 @@
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="v2VsK8_onowngQsw0-ks-5" parent="1" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;dashed=1;dashPattern=8 8;" value="CI PLUS 2.0 CICAM&lt;div&gt;解密&lt;/div&gt;" vertex="1">
-          <mxGeometry height="130" width="300" x="369" y="430" as="geometry" />
+          <mxGeometry height="130" width="300" x="357" y="430" as="geometry" />
         </mxCell>
         <mxCell id="v2VsK8_onowngQsw0-ks-27" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;verticalAlign=top;dashed=1;dashPattern=8 8;" value="逻辑接口/管道" vertex="1">
           <mxGeometry height="240" width="240" x="378" y="620" as="geometry" />
