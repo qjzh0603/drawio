@@ -69,6 +69,24 @@
         <mxCell id="v2VsK8_onowngQsw0-ks-7" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="DE" vertex="1">
           <mxGeometry height="60" width="120" x="1080" y="250" as="geometry" />
         </mxCell>
+        <mxCell id="v2VsK8_onowngQsw0-ks-20" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="CI Plus Host" vertex="1">
+          <mxGeometry height="60" width="120" x="200" y="680" as="geometry" />
+        </mxCell>
+        <mxCell id="v2VsK8_onowngQsw0-ks-21" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="CI Plus CICMA" vertex="1">
+          <mxGeometry height="60" width="460" x="630" y="680" as="geometry" />
+        </mxCell>
+        <mxCell id="v2VsK8_onowngQsw0-ks-23" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="usb" vertex="1">
+          <mxGeometry height="30" width="60" x="430" y="650" as="geometry" />
+        </mxCell>
+        <mxCell id="v2VsK8_onowngQsw0-ks-24" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=18;" value="Command Interface&lt;div&gt;命令接口&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="414" y="750" as="geometry" />
+        </mxCell>
+        <mxCell id="v2VsK8_onowngQsw0-ks-26" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=18;" value="Command Interface&lt;div&gt;命令接口&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="414" y="840" as="geometry" />
+        </mxCell>
+        <mxCell id="v2VsK8_onowngQsw0-ks-27" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="240" width="240" x="360" y="700" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
