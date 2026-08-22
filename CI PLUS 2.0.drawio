@@ -103,7 +103,7 @@
         <mxCell id="v2VsK8_onowngQsw0-ks-49" connectable="0" parent="v2VsK8_onowngQsw0-ks-48" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;" value="Bulk" vertex="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="v2VsK8_onowngQsw0-ks-51" connectable="0" parent="v2VsK8_onowngQsw0-ks-48" style="edgeLabel;resizable=0;html=1;;align=right;verticalAlign=bottom;" value="in" vertex="1">
+        <mxCell id="v2VsK8_onowngQsw0-ks-51" connectable="0" parent="v2VsK8_onowngQsw0-ks-48" style="edgeLabel;resizable=0;html=1;;align=right;verticalAlign=bottom;" value="Bulk-IN" vertex="1">
           <mxGeometry relative="1" x="1" as="geometry" />
         </mxCell>
         <mxCell id="v2VsK8_onowngQsw0-ks-53" edge="1" parent="1" source="v2VsK8_onowngQsw0-ks-21" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.25;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;elbow=vertical;libavoidRouting=1;" target="v2VsK8_onowngQsw0-ks-24" value="">
@@ -119,7 +119,7 @@
         <mxCell id="v2VsK8_onowngQsw0-ks-54" connectable="0" parent="v2VsK8_onowngQsw0-ks-53" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;" value="Bulk" vertex="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="v2VsK8_onowngQsw0-ks-55" connectable="0" parent="v2VsK8_onowngQsw0-ks-53" style="edgeLabel;resizable=0;html=1;;align=left;verticalAlign=bottom;" value="out" vertex="1">
+        <mxCell id="v2VsK8_onowngQsw0-ks-55" connectable="0" parent="v2VsK8_onowngQsw0-ks-53" style="edgeLabel;resizable=0;html=1;;align=left;verticalAlign=bottom;" value="Bulk-OUT" vertex="1">
           <mxGeometry relative="1" x="-1" as="geometry" />
         </mxCell>
         <mxCell id="v2VsK8_onowngQsw0-ks-57" edge="1" parent="1" source="v2VsK8_onowngQsw0-ks-20" style="endArrow=classic;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;libavoidRouting=1;" target="v2VsK8_onowngQsw0-ks-24" value="">
@@ -135,7 +135,7 @@
         <mxCell id="v2VsK8_onowngQsw0-ks-58" connectable="0" parent="v2VsK8_onowngQsw0-ks-57" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;" value="Bulk" vertex="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="v2VsK8_onowngQsw0-ks-59" connectable="0" parent="v2VsK8_onowngQsw0-ks-57" style="edgeLabel;resizable=0;html=1;;align=left;verticalAlign=bottom;" value="out" vertex="1">
+        <mxCell id="v2VsK8_onowngQsw0-ks-59" connectable="0" parent="v2VsK8_onowngQsw0-ks-57" style="edgeLabel;resizable=0;html=1;;align=left;verticalAlign=bottom;" value="Bulk-OUT" vertex="1">
           <mxGeometry relative="1" x="-1" as="geometry" />
         </mxCell>
         <mxCell id="v2VsK8_onowngQsw0-ks-61" edge="1" parent="1" source="v2VsK8_onowngQsw0-ks-24" style="endArrow=classic;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;elbow=vertical;libavoidRouting=1;" target="v2VsK8_onowngQsw0-ks-20" value="">
@@ -151,7 +151,7 @@
         <mxCell id="v2VsK8_onowngQsw0-ks-62" connectable="0" parent="v2VsK8_onowngQsw0-ks-61" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;" value="Bulk" vertex="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="v2VsK8_onowngQsw0-ks-64" connectable="0" parent="v2VsK8_onowngQsw0-ks-61" style="edgeLabel;resizable=0;html=1;;align=right;verticalAlign=bottom;" value="in" vertex="1">
+        <mxCell id="v2VsK8_onowngQsw0-ks-64" connectable="0" parent="v2VsK8_onowngQsw0-ks-61" style="edgeLabel;resizable=0;html=1;;align=right;verticalAlign=bottom;" value="Bulk-IN" vertex="1">
           <mxGeometry relative="1" x="1" as="geometry" />
         </mxCell>
         <mxCell id="v2VsK8_onowngQsw0-ks-65" edge="1" parent="1" source="v2VsK8_onowngQsw0-ks-20" style="endArrow=classic;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;libavoidRouting=1;" target="v2VsK8_onowngQsw0-ks-26" value="">
@@ -167,7 +167,7 @@
         <mxCell id="v2VsK8_onowngQsw0-ks-66" connectable="0" parent="v2VsK8_onowngQsw0-ks-65" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;" value="Bulk" vertex="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="v2VsK8_onowngQsw0-ks-67" connectable="0" parent="v2VsK8_onowngQsw0-ks-65" style="edgeLabel;resizable=0;html=1;;align=left;verticalAlign=bottom;" value="out" vertex="1">
+        <mxCell id="v2VsK8_onowngQsw0-ks-67" connectable="0" parent="v2VsK8_onowngQsw0-ks-65" style="edgeLabel;resizable=0;html=1;;align=left;verticalAlign=bottom;" value="Bulk-OUT" vertex="1">
           <mxGeometry relative="1" x="-1" as="geometry" />
         </mxCell>
         <mxCell id="v2VsK8_onowngQsw0-ks-68" edge="1" parent="1" source="v2VsK8_onowngQsw0-ks-26" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;elbow=vertical;libavoidRouting=1;" target="v2VsK8_onowngQsw0-ks-21" value="">
@@ -183,7 +183,7 @@
         <mxCell id="v2VsK8_onowngQsw0-ks-69" connectable="0" parent="v2VsK8_onowngQsw0-ks-68" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;" value="Bulk" vertex="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="v2VsK8_onowngQsw0-ks-70" connectable="0" parent="v2VsK8_onowngQsw0-ks-68" style="edgeLabel;resizable=0;html=1;;align=right;verticalAlign=bottom;" value="in" vertex="1">
+        <mxCell id="v2VsK8_onowngQsw0-ks-70" connectable="0" parent="v2VsK8_onowngQsw0-ks-68" style="edgeLabel;resizable=0;html=1;;align=right;verticalAlign=bottom;" value="Bulk-IN" vertex="1">
           <mxGeometry relative="1" x="1" as="geometry" />
         </mxCell>
         <mxCell id="v2VsK8_onowngQsw0-ks-71" edge="1" parent="1" source="v2VsK8_onowngQsw0-ks-26" style="endArrow=classic;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=1;entryY=1;entryDx=0;entryDy=0;libavoidRouting=1;" target="v2VsK8_onowngQsw0-ks-20" value="">
@@ -199,7 +199,7 @@
         <mxCell id="v2VsK8_onowngQsw0-ks-72" connectable="0" parent="v2VsK8_onowngQsw0-ks-71" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;" value="Bulk" vertex="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="v2VsK8_onowngQsw0-ks-74" connectable="0" parent="v2VsK8_onowngQsw0-ks-71" style="edgeLabel;resizable=0;html=1;;align=right;verticalAlign=bottom;" value="in" vertex="1">
+        <mxCell id="v2VsK8_onowngQsw0-ks-74" connectable="0" parent="v2VsK8_onowngQsw0-ks-71" style="edgeLabel;resizable=0;html=1;;align=right;verticalAlign=bottom;" value="Bulk-IN" vertex="1">
           <mxGeometry relative="1" x="1" as="geometry" />
         </mxCell>
         <mxCell id="v2VsK8_onowngQsw0-ks-75" edge="1" parent="1" source="v2VsK8_onowngQsw0-ks-21" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;elbow=vertical;libavoidRouting=1;" target="v2VsK8_onowngQsw0-ks-26" value="">
@@ -215,7 +215,7 @@
         <mxCell id="v2VsK8_onowngQsw0-ks-76" connectable="0" parent="v2VsK8_onowngQsw0-ks-75" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;" value="Bulk" vertex="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="v2VsK8_onowngQsw0-ks-77" connectable="0" parent="v2VsK8_onowngQsw0-ks-75" style="edgeLabel;resizable=0;html=1;;align=left;verticalAlign=bottom;" value="out" vertex="1">
+        <mxCell id="v2VsK8_onowngQsw0-ks-77" connectable="0" parent="v2VsK8_onowngQsw0-ks-75" style="edgeLabel;resizable=0;html=1;;align=left;verticalAlign=bottom;" value="Bulk-OUT" vertex="1">
           <mxGeometry relative="1" x="-1" as="geometry" />
         </mxCell>
       </root>
