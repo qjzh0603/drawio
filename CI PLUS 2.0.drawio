@@ -45,7 +45,7 @@
         <mxCell id="v2VsK8_onowngQsw0-ks-20" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="CI Plus Host" vertex="1">
           <mxGeometry height="60" width="120" x="200" y="680" as="geometry" />
         </mxCell>
-        <mxCell id="v2VsK8_onowngQsw0-ks-21" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="CI Plus CICMA" vertex="1">
+        <mxCell id="v2VsK8_onowngQsw0-ks-21" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="CI Plus CICMA&lt;div&gt;条件接受模块(usb棒状&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;)&lt;/span&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="60" width="460" x="630" y="680" as="geometry" />
         </mxCell>
         <mxCell id="v2VsK8_onowngQsw0-ks-23" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="usb" vertex="1">
