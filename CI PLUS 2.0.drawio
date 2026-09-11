@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net">
   <diagram name="第 1 页" id="1Dn-MkF1BSK-dtzmY5i1">
-    <mxGraphModel dx="2005" dy="707" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1802" dy="585" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -13,14 +13,24 @@
         <mxCell id="v2VsK8_onowngQsw0-ks-11" edge="1" parent="1" source="v2VsK8_onowngQsw0-ks-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="v2VsK8_onowngQsw0-ks-2">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="0wDMSiVRAS0lF2eQ0tgn-7" connectable="0" parent="v2VsK8_onowngQsw0-ks-11" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="锁频&lt;div&gt;高频-&amp;gt;中频&lt;/div&gt;" vertex="1">
+          <mxGeometry relative="1" x="-0.0266" y="2" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="v2VsK8_onowngQsw0-ks-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;" value="Tun&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;er&lt;/span&gt;" vertex="1">
-          <mxGeometry height="60" width="120" x="-30" y="250" as="geometry" />
+          <mxGeometry height="60" width="70" x="-30" y="250" as="geometry" />
         </mxCell>
         <mxCell id="v2VsK8_onowngQsw0-ks-12" edge="1" parent="1" source="v2VsK8_onowngQsw0-ks-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="v2VsK8_onowngQsw0-ks-3">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="0wDMSiVRAS0lF2eQ0tgn-8" connectable="0" parent="v2VsK8_onowngQsw0-ks-12" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="解调出&lt;div&gt;加扰ts&lt;/div&gt;" vertex="1">
+          <mxGeometry relative="1" x="-0.018" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="v2VsK8_onowngQsw0-ks-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;" value="Demod" vertex="1">
-          <mxGeometry height="60" width="120" x="128" y="250" as="geometry" />
+          <mxGeometry height="60" width="60" x="128" y="250" as="geometry" />
         </mxCell>
         <mxCell id="v2VsK8_onowngQsw0-ks-13" edge="1" parent="1" source="v2VsK8_onowngQsw0-ks-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="v2VsK8_onowngQsw0-ks-6">
           <mxGeometry relative="1" as="geometry" />
@@ -253,6 +263,17 @@
           <mxGeometry relative="1" x="-0.1746" y="-2" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="0wDMSiVRAS0lF2eQ0tgn-2" edge="1" parent="1" source="0wDMSiVRAS0lF2eQ0tgn-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="v2VsK8_onowngQsw0-ks-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0wDMSiVRAS0lF2eQ0tgn-3" connectable="0" parent="0wDMSiVRAS0lF2eQ0tgn-2" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="加扰ts&lt;div&gt;调制+载波&lt;/div&gt;" vertex="1">
+          <mxGeometry relative="1" x="-0.2714" y="2" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0wDMSiVRAS0lF2eQ0tgn-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="运营商" vertex="1">
+          <mxGeometry height="40" width="70" x="-30" y="150" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
