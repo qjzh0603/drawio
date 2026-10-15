@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net">
   <diagram name="第 1 页" id="o-WfQtEkM-0yMlXOiznd">
-    <mxGraphModel dx="817" dy="490" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="982" dy="589" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -9,8 +9,14 @@
             <mxPoint x="555" y="340" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="VyNU3g-F_i-XFtckjSxU-16" edge="1" parent="1" source="VyNU3g-F_i-XFtckjSxU-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="VyNU3g-F_i-XFtckjSxU-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VyNU3g-F_i-XFtckjSxU-17" edge="1" parent="1" source="VyNU3g-F_i-XFtckjSxU-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="VyNU3g-F_i-XFtckjSxU-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="VyNU3g-F_i-XFtckjSxU-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;" value="DeepSeek Harness" vertex="1">
-          <mxGeometry height="60" width="550" x="280" y="280" as="geometry" />
+          <mxGeometry height="60" width="480" x="280" y="280" as="geometry" />
         </mxCell>
         <mxCell id="VyNU3g-F_i-XFtckjSxU-6" edge="1" parent="1" source="VyNU3g-F_i-XFtckjSxU-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" target="VyNU3g-F_i-XFtckjSxU-1">
           <mxGeometry relative="1" as="geometry" />
@@ -38,6 +44,12 @@
         </mxCell>
         <mxCell id="VyNU3g-F_i-XFtckjSxU-11" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;" value="Thunderworkbench" vertex="1">
           <mxGeometry height="60" width="120" x="495" y="407" as="geometry" />
+        </mxCell>
+        <mxCell id="VyNU3g-F_i-XFtckjSxU-14" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;" value="Gerrit提交代码" vertex="1">
+          <mxGeometry height="60" width="120" x="840" y="241" as="geometry" />
+        </mxCell>
+        <mxCell id="VyNU3g-F_i-XFtckjSxU-15" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;" value="问题解决报告" vertex="1">
+          <mxGeometry height="60" width="120" x="840" y="321" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
