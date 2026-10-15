@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net">
   <diagram name="第 1 页" id="o-WfQtEkM-0yMlXOiznd">
-    <mxGraphModel dx="982" dy="589" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1809" dy="589" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -15,29 +15,32 @@
         <mxCell id="VyNU3g-F_i-XFtckjSxU-17" edge="1" parent="1" source="VyNU3g-F_i-XFtckjSxU-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="VyNU3g-F_i-XFtckjSxU-15">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="VyNU3g-F_i-XFtckjSxU-20" edge="1" parent="1" source="VyNU3g-F_i-XFtckjSxU-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="VyNU3g-F_i-XFtckjSxU-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="VyNU3g-F_i-XFtckjSxU-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;" value="DeepSeek Harness" vertex="1">
           <mxGeometry height="60" width="480" x="280" y="280" as="geometry" />
         </mxCell>
-        <mxCell id="VyNU3g-F_i-XFtckjSxU-6" edge="1" parent="1" source="VyNU3g-F_i-XFtckjSxU-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" target="VyNU3g-F_i-XFtckjSxU-1">
+        <mxCell id="VyNU3g-F_i-XFtckjSxU-6" edge="1" parent="1" source="VyNU3g-F_i-XFtckjSxU-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="VyNU3g-F_i-XFtckjSxU-1">
+          <mxGeometry relative="1" x="-0.6452" as="geometry" />
+        </mxCell>
+        <mxCell id="VyNU3g-F_i-XFtckjSxU-18" edge="1" parent="1" source="VyNU3g-F_i-XFtckjSxU-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="VyNU3g-F_i-XFtckjSxU-3">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="VyNU3g-F_i-XFtckjSxU-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;" value="知识库(skill库)" vertex="1">
-          <mxGeometry height="60" width="120" x="340" y="180" as="geometry" />
+        <mxCell id="VyNU3g-F_i-XFtckjSxU-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;" value="知识库(skill库)/edoc/wiki" vertex="1">
+          <mxGeometry height="60" width="150" x="380" y="50" as="geometry" />
         </mxCell>
         <mxCell id="VyNU3g-F_i-XFtckjSxU-7" edge="1" parent="1" source="VyNU3g-F_i-XFtckjSxU-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" target="VyNU3g-F_i-XFtckjSxU-1">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" x="-0.8018" as="geometry" />
         </mxCell>
-        <mxCell id="VyNU3g-F_i-XFtckjSxU-3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;" value="Claude Code" vertex="1">
-          <mxGeometry height="60" width="120" x="590" y="180" as="geometry" />
+        <mxCell id="VyNU3g-F_i-XFtckjSxU-3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;" value="Claude Code&lt;div&gt;专业负责代码分析/bug修复&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="150" x="570" y="50" as="geometry" />
         </mxCell>
         <mxCell id="VyNU3g-F_i-XFtckjSxU-4" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;" value="目标样机" vertex="1">
           <mxGeometry height="60" width="120" x="495" y="492" as="geometry" />
         </mxCell>
-        <mxCell id="VyNU3g-F_i-XFtckjSxU-9" edge="1" parent="1" source="VyNU3g-F_i-XFtckjSxU-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=-0.003;entryY=0.5;entryDx=0;entryDy=0;" target="VyNU3g-F_i-XFtckjSxU-1" value="问题导入">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
         <mxCell id="VyNU3g-F_i-XFtckjSxU-8" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;" value="Aservice/pms" vertex="1">
-          <mxGeometry height="60" width="120" x="100" y="280" as="geometry" />
+          <mxGeometry height="60" width="120" x="-80" y="280" as="geometry" />
         </mxCell>
         <mxCell id="VyNU3g-F_i-XFtckjSxU-12" edge="1" parent="1" source="VyNU3g-F_i-XFtckjSxU-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="VyNU3g-F_i-XFtckjSxU-4">
           <mxGeometry relative="1" as="geometry" />
@@ -46,10 +49,22 @@
           <mxGeometry height="60" width="120" x="495" y="407" as="geometry" />
         </mxCell>
         <mxCell id="VyNU3g-F_i-XFtckjSxU-14" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;" value="Gerrit提交代码" vertex="1">
-          <mxGeometry height="60" width="120" x="840" y="241" as="geometry" />
+          <mxGeometry height="60" width="120" x="840" y="242" as="geometry" />
         </mxCell>
         <mxCell id="VyNU3g-F_i-XFtckjSxU-15" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;" value="问题解决报告" vertex="1">
           <mxGeometry height="60" width="120" x="840" y="321" as="geometry" />
+        </mxCell>
+        <mxCell id="VyNU3g-F_i-XFtckjSxU-24" edge="1" parent="1" source="VyNU3g-F_i-XFtckjSxU-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="VyNU3g-F_i-XFtckjSxU-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VyNU3g-F_i-XFtckjSxU-19" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;" value="ASAP新工单扫描&lt;div&gt;每日日报&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="130" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="VyNU3g-F_i-XFtckjSxU-23" edge="1" parent="1" source="VyNU3g-F_i-XFtckjSxU-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" target="VyNU3g-F_i-XFtckjSxU-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VyNU3g-F_i-XFtckjSxU-22" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;" value="钉钉机器人&lt;div&gt;远程督办&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="280" y="170" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
